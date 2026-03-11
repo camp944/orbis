@@ -10,7 +10,7 @@ export async function GET() {
         const data = JSON.parse(fileData);
         
         // Retorna apenas o ID e o Nome para montar o menu
-        const listaEscalas = data.escalas.map(e => ({ id: e.id, nome: e.nome }));
+        const listaEscalas = data.escalas.map(e => ({ id: e.id, nome: e.nome, sorteado: e.sorteado, ultimaExecucao: e.ultimaExecucao }));
         return Response.json(listaEscalas);
     } catch (error) {
         return Response.json({ error: "Erro ao ler as escalas." }, { status: 500 });

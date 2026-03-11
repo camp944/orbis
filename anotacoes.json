@@ -5,21 +5,30 @@
             "nome": "Trabalho",
             "anotacoes": [
                 {
-                    "id": "nota-1773164798601",
-                    "titulo": "Teste de anotação",
-                    "conteudo": "# Nova anotação \n\n## mais um teste\n\n- vou faze um item\n- fazer segundo item",
-                    "importante": true,
-                    "dataLembrete": null,
-                    "dataRegistro": "10/03/2026 às 14:46",
-                    "dataRegistroIso": "2026-03-10T17:46:38.573Z",
-                    "finalPrio": 0,
-                    "finalBg": "#fef3c7",
-                    "finalText": "#92400e",
-                    "finalAnim": "",
-                    "corFundo": "#fef3c7",
-                    "animacao": "",
-                    "corTexto": "#92400e",
+                    "id": "nota-1773237827528",
+                    "titulo": "Teste exibição",
+                    "conteudo": "",
+                    "importante": false,
+                    "dataLembrete": "2026-03-12",
                     "tags": [
+                        {
+                            "id": "tag-1773167047509",
+                            "texto": "Urgencia",
+                            "icone": "Warning",
+                            "corFundo": "#ffe4e6",
+                            "corTexto": "#be123c",
+                            "animacao": "animate-bounce",
+                            "prioridade": "95",
+                            "origem": "Trabalho"
+                        }
+                    ],
+                    "dataRegistro": "11/03/2026 às 11:03",
+                    "dataRegistroIso": "2026-03-11T14:03:47.527Z",
+                    "finalPrio": 25,
+                    "finalBg": "#ffffff",
+                    "finalText": "#1e2937",
+                    "finalAnim": "animate-bounce",
+                    "sortedTags": [
                         {
                             "id": "tag-1773167047509",
                             "texto": "Urgencia",
@@ -41,7 +50,7 @@
                     "corFundo": "#ffe4e6",
                     "corTexto": "#be123c",
                     "animacao": "animate-bounce",
-                    "prioridade": "25",
+                    "prioridade": "95",
                     "origem": "Trabalho"
                 }
             ]

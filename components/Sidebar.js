@@ -53,12 +53,10 @@ export default function Sidebar() {
 
   const SidebarContent = (
     <div className="flex flex-col h-full bg-[#1e1b4b] text-white shadow-2xl">
-      <div className="p-6 flex justify-between items-center border-b border-indigo-800/50">
-        <div>
-          <h2 className="text-2xl font-bold tracking-wider text-indigo-300">
-            Or<span className="text-white">bis</span>
-          </h2>
-          <p className="text-indigo-400 text-xs mt-1 font-medium">Gestão Inteligente</p>
+      <div className="p-6 flex justify-around items-center border-b border-indigo-800/50">
+        <div className="flex items-center gap-1  px-2 justify-around">
+          <img src="/icon.png" className="w-22 h-22 rounded-full border border-white/20 shadow-sm" alt="O" />
+          {/* <span className="text-2xl font-black tracking-tighter text-white">rbis</span> */}
         </div>
         <button className="md:hidden text-indigo-300 hover:text-white" onClick={toggleMobile}>
           <CloseIcon />
@@ -75,7 +73,7 @@ export default function Sidebar() {
 
         {/* Submenu de Escalas (AGORA DINÂMICO!) */}
         <div className="pt-2">
-          <div 
+          <div
             onClick={toggleEscalas}
             className="px-4 py-3 rounded-xl transition-all cursor-pointer font-medium text-sm flex items-center justify-between text-indigo-200 hover:bg-indigo-800 hover:text-white select-none"
           >
@@ -98,7 +96,7 @@ export default function Sidebar() {
                   </Link>
                 );
               })}
-              
+
               <Link href="/nova-escala">
                 <div className="px-4 py-2.5 rounded-lg transition-all cursor-pointer text-sm flex items-center gap-3 text-indigo-400 hover:text-indigo-200 opacity-70 hover:opacity-100 border border-dashed border-indigo-700 mt-2">
                   <AddCircleOutlineIcon fontSize="small" /> Nova Escala
@@ -110,7 +108,7 @@ export default function Sidebar() {
 
         {/* Submenu de Anotações */}
         <div className="pt-2">
-          <div 
+          <div
             onClick={toggleAnotacoes}
             className="px-4 py-3 rounded-xl transition-all cursor-pointer font-medium text-sm flex items-center justify-between text-indigo-200 hover:bg-indigo-800 hover:text-white select-none"
           >
@@ -133,7 +131,7 @@ export default function Sidebar() {
                   </Link>
                 );
               })}
-              
+
               <Link href="/nova-categoria">
                 <div className="px-4 py-2.5 rounded-lg transition-all cursor-pointer text-sm flex items-center gap-3 text-indigo-400 hover:text-indigo-200 opacity-70 hover:opacity-100 border border-dashed border-indigo-700 mt-2">
                   <AddCircleOutlineIcon fontSize="small" /> Nova Categoria
