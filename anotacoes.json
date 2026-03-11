@@ -1,0 +1,50 @@
+{
+    "categorias": [
+        {
+            "id": "trabalho",
+            "nome": "Trabalho",
+            "anotacoes": [
+                {
+                    "id": "nota-1773164798601",
+                    "titulo": "Teste de anotação",
+                    "conteudo": "# Nova anotação \n\n## mais um teste\n\n- vou faze um item\n- fazer segundo item",
+                    "importante": true,
+                    "dataLembrete": null,
+                    "dataRegistro": "10/03/2026 às 14:46",
+                    "dataRegistroIso": "2026-03-10T17:46:38.573Z",
+                    "finalPrio": 0,
+                    "finalBg": "#fef3c7",
+                    "finalText": "#92400e",
+                    "finalAnim": "",
+                    "corFundo": "#fef3c7",
+                    "animacao": "",
+                    "corTexto": "#92400e",
+                    "tags": [
+                        {
+                            "id": "tag-1773167047509",
+                            "texto": "Urgencia",
+                            "icone": "Warning",
+                            "corFundo": "#ffe4e6",
+                            "corTexto": "#be123c",
+                            "animacao": "animate-bounce",
+                            "prioridade": "25",
+                            "origem": "Trabalho"
+                        }
+                    ]
+                }
+            ],
+            "tagsDisponiveis": [
+                {
+                    "id": "tag-1773167047509",
+                    "texto": "Urgencia",
+                    "icone": "Warning",
+                    "corFundo": "#ffe4e6",
+                    "corTexto": "#be123c",
+                    "animacao": "animate-bounce",
+                    "prioridade": "25",
+                    "origem": "Trabalho"
+                }
+            ]
+        }
+    ]
+}

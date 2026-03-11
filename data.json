@@ -1,0 +1,59 @@
+{
+    "escalas": [
+        {
+            "id": "cafe",
+            "nome": "Escala do Café",
+            "fila": [
+                "Daniel",
+                "Maria",
+                "Paulo",
+                "Guilherme"
+            ],
+            "ok": [
+                "Melyssa",
+                "Mateus"
+            ],
+            "ultimaExecucao": "10/03/2026 às 13:01",
+            "sorteado": "Mateus",
+            "historico": [
+                {
+                    "data": "10/03/2026",
+                    "nome": "Mateus"
+                },
+                {
+                    "data": "2026-03-09",
+                    "nome": "Melyssa"
+                }
+            ],
+            "pendentes": [],
+            "regras": [
+                {
+                    "pessoa": "Melyssa",
+                    "diaProibido": 2
+                }
+            ]
+        },
+        {
+            "id": "salgado",
+            "nome": "Salgado",
+            "fila": [
+                "Mateus",
+                "João Pedro",
+                "Gustavo",
+                "Guilherme",
+                "Daniel",
+                "Maria",
+                "Melyssa",
+                "Rafael",
+                "Dayane",
+                "Paulo"
+            ],
+            "ok": [],
+            "pendentes": [],
+            "historico": [],
+            "ultimaExecucao": "",
+            "sorteado": "",
+            "regras": []
+        }
+    ]
+}
